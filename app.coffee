@@ -81,7 +81,7 @@ get = (pf, cb) ->
       cb err, x
     
     
-      
+#todo use diffs
     
 app.post /.*/, (req,res) ->
   set req.url, req.params, (err, val) ->
